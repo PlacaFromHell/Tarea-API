@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>El Club de la Mofeta</title>
+    
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700&display=swap" rel="stylesheet"> 
+    <!--FUENTES-->
+    
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="../index.html">
+   <img src="https://media.discordapp.net/attachments/449814712008310796/968154904789123102/El_club_de_la_MOFETA.png" id="banner">
+    </a>
+    <nav> 
+        <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="foro.html">Foro</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="entrar.html">Entrar</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <div class="content">
+        <h3>Nombre</h3> 
+        <input id="nombre" type="text">
+        <br>
+        <h3>Foto de perfil (autogenerada)</h3>
+        <div id="elem"></div>
+        <h3>email</h3>
+        <input id="email" type="text">
+        <br>
+        <h3>Contraseña</h3>
+        <input id="contra" type="password">
+        <br> <br>
+        <button id="boton">enviar</button>
+        <button id="nuke">Borrar local storage</button>
+    
+        <p id="errorUser"></p>
+        <p id="errorClave"></p>
+        <p id="validado"></p> <span id="name"></span>
+        <link rel="stylesheet" href="style.css" />
+        
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
